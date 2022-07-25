@@ -1,0 +1,29 @@
+package pageObject;
+
+import java.io.IOException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import resources.Base;
+
+public class LandingPage extends Base {
+	
+	public WebDriver driver;
+	
+	
+	By SearchMovie = By.xpath("//input[@type=\\\"text\\\"]");
+	
+
+	public LandingPage(WebDriver driver2) {
+		// TODO Auto-generated constructor stub
+	}
+
+
+	public WebElement searchMovie() throws IOException
+	{
+		
+		return driver.findElement(SearchMovie);
+	}
+
+}

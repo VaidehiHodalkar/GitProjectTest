@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-25T15:23:53 IST" name="Surefire suite" finished-at="2022-07-25T15:24:19 IST" duration-ms="26234">
+    <groups>
+    </groups>
+    <test started-at="2022-07-25T15:23:53 IST" name="Surefire test" finished-at="2022-07-25T15:24:19 IST" duration-ms="26234">
+      <class name="TestVagrant.Pushpa_The_Rise.TestPusha_The_Rise">
+        <test-method is-config="true" signature="NavigatetoWebsite()[pri:0, instance:TestVagrant.Pushpa_The_Rise.TestPusha_The_Rise@7ea9e1e2]" started-at="2022-07-25T15:23:53 IST" name="NavigatetoWebsite" finished-at="2022-07-25T15:24:19 IST" duration-ms="25806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigatetoWebsite -->
+        <test-method signature="GetCountryofOrigin()[pri:0, instance:TestVagrant.Pushpa_The_Rise.TestPusha_The_Rise@7ea9e1e2]" started-at="2022-07-25T15:24:19 IST" name="GetCountryofOrigin" finished-at="2022-07-25T15:24:19 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetCountryofOrigin -->
+        <test-method signature="GetReleaseDate()[pri:0, instance:TestVagrant.Pushpa_The_Rise.TestPusha_The_Rise@7ea9e1e2]" started-at="2022-07-25T15:24:19 IST" name="GetReleaseDate" finished-at="2022-07-25T15:24:19 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetReleaseDate -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:TestVagrant.Pushpa_The_Rise.TestPusha_The_Rise@7ea9e1e2]" started-at="2022-07-25T15:24:19 IST" name="quit" finished-at="2022-07-25T15:24:19 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- TestVagrant.Pushpa_The_Rise.TestPusha_The_Rise -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

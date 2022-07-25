@@ -1,0 +1,24 @@
+package TestVagrant.Pushpa_The_Rise;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+public class NavigatetoWebsite {
+	
+	@Test
+	public static void main(String[] args) throws InterruptedException {
+		 System.setProperty("webdriver.chrome.driver", "//C:\\selenium\\Work\\chromedriver.exe");  
+			
+		 WebDriver driver=new ChromeDriver();  
+		 driver.navigate().to("https://www.imdb.com/");
+		 Thread.sleep(2000L);
+		 driver.findElement(By.xpath("//input[@type=\"text\"]")).sendKeys("Pushpa: The Rise - Part 1");
+		 Thread.sleep(2000L);
+		 driver.findElement(By.xpath("//li[@role=\"option\"]//a[1]")).click();
+		 
+	
+
+}
+}
